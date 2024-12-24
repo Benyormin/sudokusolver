@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/teal_700" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Name :"/>
+    <EditText android:textColor="@color/black" android:id="@+id/input_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Enter your name"/>
+    <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Email:"/>
+    <EditText android:textColor="@color/black" android:id="@+id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Enter your email" android:inputType="textEmailAddress"/>
+    <EditText android:id="@+id/opinion" android:layout_width="250dp" android:layout_height="200dp" android:layout_marginTop="20dp" android:hint="Please enter your opinion"/>
+    <RatingBar android:id="@+id/feedbackRb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+    <Button android:textColor="@color/black" android:id="@+id/submitBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Submit" android:shadowColor="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.beny.sudokusolver" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="30"/>
+    <application android:theme="@style/Theme.SudokuSolver" android:label="@string/app_name" android:icon="@mipmap/my_icon" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="@mipmap/my_icon" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity android:name="com.beny.sudokusolver.About"/>
+        <activity android:name="com.beny.sudokusolver.Feedback"/>
+        <activity android:name="com.beny.sudokusolver.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
