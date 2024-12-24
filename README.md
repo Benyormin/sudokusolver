@@ -39,4 +39,4 @@ A simple android application that solves the sudoku puzzle using a backtracking 
 ### Installation
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/sudoku-solver.git
+   git clone https://github.com/Benyormin/sudokusolver.git
